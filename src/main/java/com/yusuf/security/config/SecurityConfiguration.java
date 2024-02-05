@@ -24,7 +24,7 @@ public class SecurityConfiguration {
                 .csrf()
                 .disable() // CSRF korumasını devre dışı bırak
                 .authorizeHttpRequests()
-                .requestMatchers("") // Belirli URL'leri kısıtlamak için kullanılan bir ifade (Boş string tüm URL'leri temsil eder)
+                .requestMatchers("/api/v1/auth/**") // Belirli URL'leri kısıtlamak için kullanılan bir ifade (Boş string tüm URL'leri temsil eder)
                 .permitAll() // Belirtilen URL'leri herkesin erişebileceği şekilde konfigüre et
                 .anyRequest()
                 .authenticated() // Diğer tüm URL'ler için kimlik doğrulama gerektir

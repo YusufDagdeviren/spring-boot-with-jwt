@@ -14,4 +14,4 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 jwt:
-  secret-key: Rs19jsfWAjxt1bnjkitNTyH9Ldxx5pby
+  secret-key: Rs19jsfWAjxt1bnjkitNTyH9Ldxx5pbyjxt1bnjkitNTyxt1bnjkitNTyH9LRs19jsfWAjxt1b
